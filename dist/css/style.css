@@ -1,0 +1,33 @@
+.calendar {
+	width: 450px;
+	height: 360px;
+	margin: 0 auto;
+	border: 1px solid #000000;
+}
+.block {
+	width: 30px;
+	height: 30px;
+	padding: 15px;
+	float: left;
+	box-sizing: content-box !important;
+	text-align: center;
+}
+.calendar-table {
+	border: 1px solid #000000;
+	width: 100%;
+	height: 100%;
+	max-width: 450px;
+	max-height: 360px;
+	margin: 0 auto;
+	border-collapse: initial !important;
+}
+.calendar-table tr td {
+	width: 14%;
+	height: 30px;
+	padding: 15px;
+	text-align: center;
+}
+.today {
+	font-weight: 800 !important;
+	text-shadow: 1px 1px 0 red, -1px -1px 0 red, 0 0 10px red;
+}
